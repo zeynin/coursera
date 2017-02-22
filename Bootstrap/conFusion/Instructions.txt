@@ -1,0 +1,38 @@
+Download Bootstrap distro
+Move the bootstrap-3.3.5-dist.zip file to the conFusion folder you created above and unzip it. You should now see a folder named bootstrap-3.3.5-dist. Go to this folder and move the three folders there (css, fonts and js) to conFusion folder above. You can now delete the zip file and bootstrap-3.3.5-dist folder. Now you are all set to use Bootstrap to design your web project.
+
+To install Node on your machine, go to https://nodejs.org and click on the Download button. Depending on your computer's platform (Windows, MacOS or Linux), the appropriate installation package is downloaded.As an example, on a Mac, you will see the following web page. Click on the Download button. Follow along the instructions to install Node on your machine. (Note: Now Node gives you the option of installing a mature and dependable version and a more newer stable version. You can choose to install the mature and dependable version. I will continue to use this version in the course. You can choose to install the newer stable version if you wish. You may not see any perceptible differences between the two as users).
+
+Note: On Windows machines, you may also to install Git on your machine if you don't have it already installed. Some of the Node based tools that we use later will need Git to be installed. You can download the installer from here: http://git-scm.com/download
+
+Note: On Windows machines, you may need to configure your PATH environmental variable in case you forgot to turn on the add to PATH during the installation steps.
+
+     npm install -g bower
+     bower init
+
+Bower will ask several questions which you should answer as follows:
+
+Name: conFusion (the default)
+
+version: 1.0.0
+
+description: Website for an awesome restaurant
+
+main file: index.html
+
+what type of modules does this package expose? (leave all unselected, just hit enter)
+
+keywords: conFusion, Fusion Restaurant
+
+author: (Your own name)
+
+license: (MIT)
+
+Say yes to the remaining questions except the last one.
+
+Looks Good? Y
+
+Have a look at the contents of the bower.json file that was created.
+
+     bower install bootstrap -S
+     bower install font-awesome -S
