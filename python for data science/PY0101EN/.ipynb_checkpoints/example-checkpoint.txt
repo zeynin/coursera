@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Resource>/cf-courses-data/CognitiveClass/PY0101EN/labs/example.txt</Resource><RequestId>67b37fbf-56d1-406b-ab22-50399e53ca15</RequestId><httpStatusCode>404</httpStatusCode></Error>
